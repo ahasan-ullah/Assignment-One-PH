@@ -63,6 +63,12 @@
   opacity: 0.8;
   padding:12px;
   cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.nav-btn:hover{
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
 }
 
 header{
@@ -111,8 +117,13 @@ header{
   border: 1px solid black;
   padding: 21px 24px 21px 24px;
   cursor: pointer;
+  transition: all ease 0.3s;
 }
 
+.header-btn:hover{
+  background: transparent;
+  color: rgb(13, 19, 33);
+}
 
 
 /* why web dev */
@@ -178,6 +189,11 @@ header{
   font-weight: 600;
   text-align: center;
   cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.card-btn:hover{
+  background-color: transparent;
 }
 
 /* my inspiration */
